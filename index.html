@@ -11,6 +11,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="images/apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="main-text-color">
@@ -18,16 +23,18 @@
   <div class="container">
     <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
     <div class="image-container">
-      <img src="images/bunny-pfp.jpg" alt="Photo by Art Hauntington">
+      <img src="images/pfp-thomas.jpg" alt="An image of Thomas Nguyen">
     </div>
     <div class="intro">
-      I'm <span class="name"><strong>Thomas Nguyen</strong></span>, a student studying Computer Science at Virginia Tech.
+      I'm <span class="name"><strong>Thomas Nguyen</strong></span>, a video game lover building the computer 
+      science projects of tomorrow at Virginia Tech.
+    </div>
     <div class="section-header">
       <h1>My work</h1>
     </div>
     <!-- Replace the # inside of the href="#" with your links. -->
     <div class="links-container">
-      <div class="button toggle">Blog post</div>
+      <div class="button toggle"><i class="fa-brands fa-medium"></i> Blog post</div>
       <div class="slidedown">
         <div class="description">
           <h2>Why You Should Play This Billion Dollar Game</h2>
@@ -38,21 +45,23 @@
         </div>
       </div>
 
-      <div class="button toggle">Video</div>
+      <div class="button toggle"><i class="fa-brands fa-youtube"></i> Video</div>
       <div class="slidedown">
         <div class="description">
-          <h2>Placeholder video</h2>
-          <p>Placeholder video description - Coming soon!</p>
-          <a href="#" class="external-link" target="_blank">Watch</a>
+          <h2>How To Play Castorice (Utilize Mem's Energy Bar To The Max)</h2>
+          <p>A video showcasing the secret to maximizing Honkai Star Rail's premier DPS.</p>
+          <div class="embed-container"><iframe src="https://www.youtube.com/embed/XpzSeMfIOPY?si=TcwCgWN_u52O-5rZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <a href="https://www.youtube.com/watch?v=XpzSeMfIOPY" class="external-link" target="_blank">Watch</a>
         </div>
       </div>
 
-      <div class="button toggle">Podcast</div>
+      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i> Podcast</div>
       <div class="slidedown">
         <div class="description">
           <h2>What College Students Think About the TikTok Ban</h2>
           <p>What happens when the world's largets social media platform goes dark overnight? 
             Four college students are here to inform and give their opinions on the ongoing TikTok fiasco.</p>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2075897796&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gwyneth26" title="Gwyneth26" target="_blank" style="color: #cccccc; text-decoration: none;">Gwyneth26</a> · <a href="https://soundcloud.com/gwyneth26/the-effects-of-the-tiktok-ban-through-the-eyes-of-four-college-students" title="The Effects of the TikTok Ban Through the Eyes of Four College Students" target="_blank" style="color: #cccccc; text-decoration: none;">The Effects of the TikTok Ban Through the Eyes of Four College Students</a></div>
           <a href="https://soundcloud.com/gwyneth26/the-effects-of-the-tiktok-ban-through-the-eyes-of-four-college-students" class="external-link" target="_blank">Listen</a>
         </div>
       </div>
@@ -64,12 +73,28 @@
     </div>
 
     <div class="links-container">
-      <a href="https://github.com/toemaas" class="button" target="_blank">GitHub</a>
+      <a href="https://github.com/toemaas" class="button" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <div class="button toggle"><i class="fa-regular fa-file"></i> Resume</div>
+        <div class="slidedown">
+          <div class="description">
+            <iframe src="assets/nguyen_thomas_resume.pdf" type="application/pdf" width="100%" height="600px" title="Thomas Nguyen's Resume">
+              <p>It appears your browser does not support embedded PDFs.
+                 You can <a href="assets/nguyen_thomas_resume.pdf">download the PDF directly</a>.
+              </p>
+            </iframe>
+          </div>
+        </div>
+        <div class="button toggle"><i class="fa-brands fa-spotify"></i> Favorite Song :)</div>
+        <div class="slidedown">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5sdQOyqq2IDhvmx2lHOpwd?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+      </div>
     </div>
 
   </div>
   <div class="footer">
-    <p>© Thomas Nguyen, 2024. Based on a design by <a
+    <p>© Thomas Nguyen, 2025. Based on a design by <a
         href="https://www.w3schools.com/howto/howto_website_create_linktree.asp" target="_blank">w3schools</a>.
     </p>
   </div>
